@@ -42,7 +42,7 @@ namespace ChartJSCoreTest
             BarDataset dataset = new BarDataset()
             {
                 Label = "# of Votes",
-                Data = new List<double>() { 12, 19, 3, 5, 2, 3 },
+                Data = new List<double?>() { 12, 19, 3, 5, 2, 3 },
                 BackgroundColor = new List<string>()
                 {
                 "rgba(255, 99, 132, 0.2)",
@@ -121,7 +121,7 @@ namespace ChartJSCoreTest
             LineDataset dataset = new LineDataset()
             {
                 Label = "My First dataset",
-                Data = new List<double>() { 65, 59, 80, 81, 56, 55, 40 },
+                Data = new List<double?>() { 65, 59, 80, 81, 56, 55, 40 },
                 Fill = "false",
                 LineTension = 0.1,
                 BackgroundColor = "rgba(75, 192, 192, 0.4)",
@@ -261,7 +261,7 @@ namespace ChartJSCoreTest
                 PointBorderColor = new List<string>() { "#fff" },
                 PointHoverBackgroundColor = new List<string>() { "#fff" },
                 PointHoverBorderColor = new List<string>() { "rgba(179,181,198,1)" },
-                Data = new List<double>() { 65, 59, 80, 81, 56, 55, 40 }
+                Data = new List<double?>() { 65, 59, 80, 81, 56, 55, 40 }
             };
 
             RadarDataset dataset2 = new RadarDataset()
@@ -273,7 +273,7 @@ namespace ChartJSCoreTest
                 PointBorderColor = new List<string>() { "#fff" },
                 PointHoverBackgroundColor = new List<string>() { "#fff" },
                 PointHoverBorderColor = new List<string>() { "rgba(255,99,132,1)" },
-                Data = new List<double>() { 28, 48, 40, 19, 96, 27, 100 }
+                Data = new List<double?>() { 28, 48, 40, 19, 96, 27, 100 }
             };
 
             data.Datasets = new List<Dataset>();
@@ -299,7 +299,7 @@ namespace ChartJSCoreTest
             {
                 Label = "My dataset",
                 BackgroundColor = new List<string>() { "#FF6384", "#4BC0C0", "#FFCE56", "#E7E9ED", "#36A2EB" },
-                Data = new List<double>() { 11, 16, 7, 3, 14 }
+                Data = new List<double?>() { 11, 16, 7, 3, 14 }
             };
 
             data.Datasets = new List<Dataset>();
@@ -325,7 +325,7 @@ namespace ChartJSCoreTest
                 Label = "My dataset",
                 BackgroundColor = new List<string>() { "#FF6384", "#36A2EB", "#FFCE56" },
                 HoverBackgroundColor = new List<string>() { "#FF6384", "#36A2EB", "#FFCE56" },
-                Data = new List<double>() { 300, 50, 100 }
+                Data = new List<double?>() { 300, 50, 100 }
             };
 
             data.Datasets = new List<Dataset>();
